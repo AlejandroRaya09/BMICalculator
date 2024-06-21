@@ -2,5 +2,9 @@
     background-color: #FF111328;
     height: 130px;
     border-radius: 20px;
+    color: aliceblue;
 }
 
+.sexo{
+    font-size: 40px;
+}
