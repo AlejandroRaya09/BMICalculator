@@ -35,3 +35,7 @@ input[type=range]::-webkit-slider-thumb{
     border-radius: 15px;
     margin-left: 3px;
 }
+
+.sexoDisable{
+    background-color: #7D2F2F33;
+}
