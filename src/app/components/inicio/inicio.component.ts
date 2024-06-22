@@ -28,7 +28,9 @@ export class InicioComponent {
   }
 
   calcularBMI(){
-    this.router.navigate(['/resultado'])
+    const BMI = this.peso / Math.pow(this.altura/100,2)
+
+    this.router.navigate(['/resultado', BMI.toFixed(1)])
   }
 
 }
